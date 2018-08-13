@@ -54,4 +54,31 @@
     position: absolute;
     bottom: 0;
     border-radius: 0px 0px 25px 25px ;
+
 }
+
+.player-bottom nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-btn {
+    padding-top: 54px;
+}
+
+.nav-btn:first-child {
+    padding-right: 44px;
+}
+
+.nav-btn:last-child {
+    padding-left: 44px;
+}
+
+.center-btn {
+    padding-top: 40px;
+    padding-left: 13px;
+    padding-right: 11px;
+}
+
+
