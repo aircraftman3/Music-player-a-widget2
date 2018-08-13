@@ -37,6 +37,35 @@
 
 }
 
+.player-repeat-nav ul{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 24px;
+    margin: 0px
+
+}
+
+.player-repeat-nav img {
+    cursor: pointer;
+}
+
+
+
+
+#menu-btn {
+    position: absolute;
+    right: 20px;
+}
+
+#center-btn {
+    padding-left: 24px;
+    padding-right: 22px;
+}
+
+
+
 .player-song-info {
     background-color: #2a224d;
     opacity: 0.6;
@@ -45,6 +74,11 @@
     position: absolute; /*!!!!!!*/
     bottom: 29.5%;
 
+}
+
+.player-song-info p {
+    color: white;
+    text-align: center;
 }
 
 .player-bottom {
@@ -57,14 +91,19 @@
 
 }
 
-.player-bottom nav {
+.player-bottom ul {
     display: flex;
     justify-content: center;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
 
 }
 
+
 .nav-btn {
     padding-top: 54px;
+
 }
 
 .nav-btn:first-child {
@@ -79,6 +118,11 @@
     padding-top: 40px;
     padding-left: 13px;
     padding-right: 11px;
+
+}
+
+.player-bottom img {
+    cursor: pointer;
 }
 
 
