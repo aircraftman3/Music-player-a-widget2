@@ -154,31 +154,40 @@
     display: inline;
 }
 
-.second-image {
-    position: absolute;
-    right: 52px;
+.first-image {
+    right: 63px;
 }
 
-.first-image {
+.second-image {
+    right: 36px;
+}
+
+.first-image, .second-image {
     position: absolute;
-    right: 79px;
+    top: 33px;
 }
 
 .songs-container {
     padding-left: 26px;
+    height: 420px;
+    overflow: auto;
 }
 
 p.songs {
     margin: 0;
 }
 
-#song1\.1, #song2\.1, #song3\.1, #song4\.1, #song5\.1 {
+.songs {
+    position: relative;
+}
+
+#song1\.1, #song2\.1, #song3\.1, #song4\.1, #song5\.1, #song6\.1, #song7\.1, #song8\.1, #song9\.1, #song10\.1, #song11\.1, #song12\.1 {
     color: #2f1a4b;
     font-size: 16px;
     padding-bottom: 24px;
 }
 
-#song1, #song2, #song3, #song4, #song5 {
+#song1, #song2, #song3, #song4, #song5, #song6, #song7, #song8, #song9, #song10, #song11, #song12 {
     color: #78747f;
     font-size: 12px;
     padding-top: 24px;
@@ -222,3 +231,4 @@ p.songs {
     color: #60558f;
     margin-bottom: 3px;
 }
+

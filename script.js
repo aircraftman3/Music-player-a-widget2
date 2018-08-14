@@ -1,4 +1,3 @@
-
 function changeImage() {
   var image = document.getElementById("center-btnId");
   if (image.src.match("./images/btn-pause.png")) {
@@ -8,15 +7,15 @@ function changeImage() {
   }
 }
 
-$(document).ready(function(){
-  $("#menu-btn").click(function(){
+$(document).ready(function () {
+  $("#menu-btn").click(function () {
     $(".player").fadeOut();
     $(".player-list").fadeIn();
   });
 });
 
-$(document).ready(function(){
-  $("#return-btn").click(function(){
+$(document).ready(function () {
+  $("#return-btn").click(function () {
     $(".player-list").fadeOut();
     $(".player").fadeIn();
   });
@@ -52,10 +51,65 @@ var song5 = {
   duration: "3:24\xa0\xa0|\xa0\xa0"
 }
 
+var song6 = {
+  artist: song1.artist,
+  title: "Sun Goes Down",
+  duration: "3:14\xa0\xa0|\xa0\xa0"
+}
+
+var song7 = {
+  artist: song1.artist,
+  title: "Flashback",
+  duration: "2:49\xa0\xa0|\xa0\xa0"
+}
+
+var song8 = {
+  artist: song1.artist,
+  title: "Lovers to Friends",
+  duration: "3:01\xa0\xa0|\xa0\xa0"
+}
+
+var song9 = {
+  artist: song1.artist,
+  title: "Top Rated",
+  duration: "2:59\xa0\xa0|\xa0\xa0"
+}
+
+var song10 = {
+  artist: song1.artist,
+  title: "Wanna B With Somebody",
+  duration: "3:01\xa0\xa0|\xa0\xa0"
+}
+
+var song11 = {
+  artist: song1.artist,
+  title: "Light Me Up",
+  duration: "3:20\xa0\xa0|\xa0\xa0"
+}
+
+var song12 = {
+  artist: song1.artist,
+  title: "In the Stars",
+  duration: "3:16\xa0\xa0|\xa0\xa0"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById("artist").innerHTML = song1.artist;
 document.getElementById("song-title").innerHTML = song1.name;
-
-
 
 
 function createPlaylist(object, id) {
@@ -106,3 +160,42 @@ createPlaylist(song5.artist, "song5");
 createPlaylist(song5.title, "song5.1");
 createPlaylist2("song5")
 createPlaylist3("song5")
+createPlaylist(song6.duration, "song6");
+createPlaylist(song6.artist, "song6");
+createPlaylist(song6.title, "song6.1");
+createPlaylist2("song6")
+createPlaylist3("song6")
+
+createPlaylist(song7.duration, "song7");
+createPlaylist(song7.artist, "song7");
+createPlaylist(song7.title, "song7.1");
+createPlaylist2("song7")
+createPlaylist3("song7")
+createPlaylist(song8.duration, "song8");
+createPlaylist(song8.artist, "song8");
+createPlaylist(song8.title, "song8.1");
+createPlaylist2("song8")
+createPlaylist3("song8")
+createPlaylist(song9.duration, "song9");
+createPlaylist(song9.artist, "song9");
+createPlaylist(song9.title, "song9.1");
+createPlaylist2("song9")
+createPlaylist3("song9")
+createPlaylist(song10.duration, "song10");
+createPlaylist(song10.artist, "song10");
+createPlaylist(song10.title, "song10.1");
+createPlaylist2("song10")
+createPlaylist3("song10")
+createPlaylist(song11.duration, "song11");
+createPlaylist(song11.artist, "song11");
+createPlaylist(song11.title, "song11.1");
+createPlaylist2("song11")
+createPlaylist3("song11")
+createPlaylist(song12.duration, "song12");
+createPlaylist(song12.artist, "song12");
+createPlaylist(song12.title, "song12.1");
+createPlaylist2("song12")
+createPlaylist3("song12")
+
+
+
