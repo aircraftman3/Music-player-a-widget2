@@ -1,5 +1,6 @@
 * {
     font-family: 'Rambla', Times, sans-serif;
+    list-style-type: none;
 }
 
 .body {
@@ -31,8 +32,8 @@
 
 .player-repeat-nav {
 
-    background-color: #2a224d;
-    opacity: 0.6;
+    background-color: rgba(42, 34, 77, 0.6);
+
 
     width: 100%;
     height: 13.5%;
@@ -66,8 +67,9 @@
 }
 
 .player-song-info {
-    background-color: #2a224d;
-    opacity: 0.6;
+    background-color: rgba(42, 34, 77, 0.6);
+    color: #fff;
+
     width: 100%;
     height: 13.5%;
     position: absolute; /*!!!!!!*/
@@ -75,9 +77,24 @@
 
 }
 
-.player-song-info p {
-    color: white;
+.player-song-info h4, h5 {
+
     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+
+    
+
+}
+
+.player-song-info h5 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.player-song-info h4 {
+    padding-top: 16px;
 }
 
 .player-bottom {
@@ -93,7 +110,7 @@
 .player-bottom ul {
     display: flex;
     justify-content: center;
-    list-style-type: none;
+
     padding-left: 0px;
     margin: 0px;
 
