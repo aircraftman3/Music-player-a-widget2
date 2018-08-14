@@ -5,7 +5,12 @@
     <title>a-widget</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="script.js"></script>
+
+    <!--make sure then sit here and not link rel or something-->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 
@@ -18,7 +23,7 @@
         <div class="player-repeat-nav"><!--góry pasek repeat-->
             <ul>
             <li><img src="./images/btn-repeat-all.png" alt="repeat-all">
-            <li id="center-btn"><img src="./images/btn-shuffle.png" alt="shuffle"></li>
+            <li><img id="center-btn" src="./images/btn-shuffle.png" alt="shuffle"></li>
             <li><img src="./images/btn-repeat-one.png" alt="repeat-one"></li>
 
             <img id="menu-btn" src="./images/btn-menu.png" alt="menu">
@@ -32,6 +37,8 @@
         </div>
     </div>
 
+    <!--Font awesome zamiast guzików nawigacji-->
+
     <div class="player-bottom"><!--dolny panel navigacja-->
         <ul>
             <li class="nav-btn"><img src="./images/btn-share.png" alt="share"></li>
@@ -43,6 +50,15 @@
 
         </ul>
     </div>
+</div>
+
+<div class="player-list">
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+    <p>6</p>
 </div>
 
 </body>

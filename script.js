@@ -7,3 +7,13 @@ function changeImage() {
     image.src = "./images/btn-pause.png";
   }
 }
+
+$(document).ready(function(){
+  $("#menu-btn").click(function(){
+    $(".player").fadeOut("slow", "linear")
+  });
+  $("#menu-btn").click(function(){
+    $(".player-list").fadeIn();
+  });
+});
+
