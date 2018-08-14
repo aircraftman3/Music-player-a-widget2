@@ -154,6 +154,43 @@
     display: inline;
 }
 
+.second-image {
+    position: absolute;
+    right: 52px;
+}
+
+.first-image {
+    position: absolute;
+    right: 79px;
+}
+
+.songs-container {
+    padding-left: 26px;
+}
+
+p.songs {
+    margin: 0;
+}
+
+#song1\.1, #song2\.1, #song3\.1, #song4\.1, #song5\.1 {
+    color: #2f1a4b;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+#song1, #song2, #song3, #song4, #song5 {
+    color: #78747f;
+    font-size: 12px;
+    padding-top: 24px;
+}
+
+.border-div {
+    height: 1px;
+    width: 280px;
+    background-color: #d3d5de;
+
+}
+
 .player-top2 {
 
     width: 100%;
@@ -183,4 +220,5 @@
     font-weight: bold;
     font-size: 18px;
     color: #60558f;
+    margin-bottom: 3px;
 }
