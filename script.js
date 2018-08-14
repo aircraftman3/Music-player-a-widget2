@@ -10,10 +10,14 @@ function changeImage() {
 
 $(document).ready(function(){
   $("#menu-btn").click(function(){
-    $(".player").fadeOut("slow", "linear")
-  });
-  $("#menu-btn").click(function(){
+    $(".player").fadeOut();
     $(".player-list").fadeIn();
   });
 });
 
+$(document).ready(function(){
+  $("#return-btn").click(function(){
+    $(".player-list").fadeOut();
+    $(".player").fadeIn();
+  });
+});
