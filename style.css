@@ -152,40 +152,58 @@
 
 
 .first-image {
-    right: 63px;
+    right: 80px;
 
 }
 
 .second-image {
 
-right: 36px;
+right: 53px;
 }
 
 .first-image, .second-image {
     position: absolute;
+    cursor: pointer;
 
 }
 
 #songs-container {
-    
+
     padding-left: 26px;
-    height: 420px;
+    height: 370px;
     overflow: auto;
     position: relative;
+
+}
+
+.player-repeat-nav2:after {
+
+
+    content:"";
+    position:absolute;
+    top:360px;
+    left:0;
+    height:80px;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,0), #f3f4f8);
+
+
+
 }
 
 .first-row {
     color: #78747f;
     font-size: 12px;
     padding-top: 24px;
+    cursor: pointer;
 }
 
 .second-row {
     color: #2f1a4b;
     font-size: 16px;
     padding-bottom: 24px;
-
-    display: inline;
+    cursor: pointer;
+    display: block;
 
 }
 

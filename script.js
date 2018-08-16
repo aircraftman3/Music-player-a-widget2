@@ -196,12 +196,12 @@ var f = function() {
   for (var i = 0; i < songs.length; i++) {
     $('#songs-container').append('<li class="first-row" data-index="' + i + '">' +
       songs[i].duration + songs[i].artist + '</li>' +
-      '<li class="second-row" data-index="' + i + '">' + songs[i].title +
-      '</li>' + '<img class="first-image" ' +
+      '<img class="first-image" ' +
       'src="./images/btn-share-small.png" ' +
       'alt="Share">' + '<img class="second-image" ' +
       'src="./images/btn-heart-small.png" ' +
-      'alt="Like">' + '<div class="border-div"></div>');
+      'alt="Like">' + '<li class="second-row" data-index="' + i + '">' + songs[i].title +
+      '</li>' + '<div class="border-div"></div>');
 }
 };
 f();
