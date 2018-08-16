@@ -86,14 +86,12 @@ var songs = [{
   duration: "3:16\xa0\xa0|\xa0\xa0"
 }];
 
+// initial value
+document.querySelector("#current-artist").innerHTML = songs[0].artist;
+document.querySelector("#current-song-title").innerHTML = songs[0].title;
 
 
 
-// document.getElementById("current-artist").innerHTML = songs[0].artist;
-// document.getElementById("current-song-title").innerHTML = songs[0].title;
-//
-//
-//
 
 
 
@@ -196,14 +194,14 @@ $('#songs-container').on('click', 'li', function() {
 
 var f = function() {
   for (var i = 0; i < songs.length; i++) {
-    $('#songs-container').append('<li data-index="' + i + '">' +
+    $('#songs-container').append('<li class="first-row" data-index="' + i + '">' +
       songs[i].duration + songs[i].artist + '</li>' +
-      '<li data-index="' + i + '">' + songs[i].title +
-      '</li>' + '<img id="znaczek1" ' +
-      'src="https://avatars2.githubusercontent.com/u/14171731?s=70&v=4" ' +
-      'alt="Smiley face">' + '<img id="znaczek2" ' +
-      'src="https://avatars2.githubusercontent.com/u/14171731?s=70&v=4" ' +
-      'alt="Smiley face">');
+      '<li class="second-row" data-index="' + i + '">' + songs[i].title +
+      '</li>' + '<img class="first-image" ' +
+      'src="./images/btn-share-small.png" ' +
+      'alt="Share">' + '<img class="second-image" ' +
+      'src="./images/btn-heart-small.png" ' +
+      'alt="Like">' + '<div class="border-div"></div>');
 }
 };
 f();
