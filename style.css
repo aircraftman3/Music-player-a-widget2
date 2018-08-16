@@ -10,7 +10,7 @@
 }
 
 .player {
-    display: none;
+    /*display: none;*/
     width: 360px;
     height: 480px;
 
@@ -143,12 +143,12 @@
     height: 480px;
     background-color: #f3f4f8;
     position: absolute;
-    left: 3%;
+    left: 30%;
     top: 10%;
     border-radius: 25px;
 
 }
-
+/*!!!!!!!!!!!!!!!*/
 .songs p {
     margin: 0;
     display: inline;
@@ -167,12 +167,12 @@
     top: 33px;
 }
 
-.songs-container {
+#songs-container {
     padding-left: 26px;
     height: 420px;
     overflow: auto;
 }
-
+/*!!!!!!repeated!!!!!!!!!*/
 p.songs {
     margin: 0;
 }
