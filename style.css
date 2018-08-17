@@ -171,7 +171,7 @@ right: 78px;
 
     padding-left: 26px;
     height: 370px;
-    overflow: auto;
+
     position: relative;
 
 }
@@ -196,6 +196,7 @@ right: 78px;
     font-size: 12px;
     padding-top: 24px;
     cursor: pointer;
+    width: 283px;
 }
 
 .second-row {
@@ -204,7 +205,7 @@ right: 78px;
     padding-bottom: 24px;
     cursor: pointer;
     display: block;
-
+    width: 283px;
 }
 
 li.first-row:first-child {
