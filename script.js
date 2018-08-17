@@ -8,7 +8,14 @@ function changeImage() {
   }
 }
 
-// fading out of player window and fading in of playlist window
+
+
+
+
+
+
+
+// fading out of player window and fading in of playlist window, czy można to połączyć z tym poniżej
 $(document).ready(function () {
   $("#menu-btn").click(function () {
     $(".player").fadeOut();
@@ -89,6 +96,7 @@ var songs = [{
 // initial value
 document.querySelector("#current-artist").innerHTML = songs[0].artist;
 document.querySelector("#current-song-title").innerHTML = songs[0].title;
+
 
 
 
@@ -208,4 +216,3 @@ var f = function() {
 }
 };
 f();
-
