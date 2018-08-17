@@ -190,6 +190,9 @@ $('#songs-container').on('click', 'li', function() {
   /* $('#song-duration').html(song.duration); */
   $('#current-artist').html(song.artist);
   $('#current-song-title').html(song.title);
+  $(".player-list").fadeOut();
+  $(".player").fadeIn();
+
 });
 
 var f = function() {

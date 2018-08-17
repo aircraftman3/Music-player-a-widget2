@@ -10,7 +10,7 @@
 }
 
 .player {
-    /*display: none;*/
+
     width: 360px;
     height: 480px;
 
@@ -138,12 +138,12 @@
 }
 
 .player-list {
-
+    display: none;
     width: 360px;
     height: 480px;
     background-color: #f3f4f8;
     position: absolute;
-    left: 30%;
+    left: 3%;
     top: 10%;
     border-radius: 25px;
 
@@ -152,13 +152,13 @@
 
 
 .first-image {
-    right: 105px;
+    right: 63px;
 
 }
 
 .second-image {
 
-right: 78px;
+right: 36px;
 }
 
 .first-image, .second-image {
